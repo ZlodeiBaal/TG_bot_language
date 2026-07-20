@@ -1,0 +1,7 @@
+.conda/
+.key
+.gitsecret
+__pycache__/
+.pytest_cache/
+*.py[cod]
+logs/
