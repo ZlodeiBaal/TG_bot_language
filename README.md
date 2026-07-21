@@ -55,9 +55,7 @@
 
 ## Требования
 
-- Windows с PowerShell;
-- Miniconda;
-- `ffmpeg` и `ffprobe` в `PATH`;
+- `ffmpeg` и `ffprobe` в `PATH` если Windows и установленный `sudo apt install -y ffmpeg` если Lunux;
 - токен Telegram-бота;
 - ключ OpenRouter с доступом к `openai/gpt-audio-mini`.
 
