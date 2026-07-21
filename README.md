@@ -70,12 +70,20 @@ OpenRouter=your_openrouter_api_key
 
 Файлы `.key` и `.gitsecret` исключены из Git.
 
-Создайте локальное conda-окружение и установите зависимости:
+Создайте локальное conda-окружение и установите зависимости (Windows):
 
 ```powershell
 & "$env:USERPROFILE\miniconda3\Scripts\conda.exe" create -p .\.conda python=3.12 -y
 & .\.conda\python.exe -m pip install -r requirements.txt
 ```
+Linux (внутри папки)
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+sudo apt install -y ffmpeg
+```
+
 
 ## Запуск
 
